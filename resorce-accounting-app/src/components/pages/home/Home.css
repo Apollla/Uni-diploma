@@ -1,0 +1,28 @@
+.react-calendar__tile.expiring {
+  background-color: #f56565 !important;
+  color: white !important;
+  border-radius: 9999px !important;
+}
+
+.calendar-container .react-calendar {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.react-calendar__month-view__days,
+.react-calendar__month-view__weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.react-calendar__tile {
+  max-width: initial;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .react-calendar {
+    font-size: 0.8rem;
+  }
+}
+

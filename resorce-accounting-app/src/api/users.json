@@ -1,0 +1,426 @@
+[
+  {
+    "id": "user-001",
+    "name": "John Smith",
+    "email": "john.smith@company.com",
+    "position": "Software Engineer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 5,
+    "devices": [
+      { "id": "ud-001", "deviceId": "dev-001", "deviceName": "Dell XPS 13", "assignedAt": "2024-05-14" },
+      { "id": "ud-002", "deviceId": "dev-012", "deviceName": "Dell Latitude 7420", "assignedAt": "2024-06-01" }
+    ],
+    "softwares": [
+      { "id": "us-001", "softwareId": "soft-006", "softwareName": "Visual Studio", "licenseType": "Perpetual" },
+      { "id": "us-002", "softwareId": "soft-014", "softwareName": "Docker Desktop", "licenseType": "Subscription" },
+      { "id": "us-003", "softwareId": "soft-013", "softwareName": "Postman", "licenseType": "Subscription" }
+    ],
+    "history": [
+      { "id": "uh-001", "action": "Assigned device", "description": "Dell XPS 13 assigned", "date": "2024-05-14" }
+    ]
+  },
+
+  {
+    "id": "user-002",
+    "name": "Emily Davis",
+    "email": "emily.davis@company.com",
+    "position": "UI Designer",
+    "department": "Design",
+    "devicesCount": 1,
+    "licensesCount": 3,
+    "devices": [
+      { "id": "ud-003", "deviceId": "dev-005", "deviceName": "iMac 24", "assignedAt": "2023-03-13" }
+    ],
+    "softwares": [
+      { "id": "us-004", "softwareId": "soft-007", "softwareName": "Figma", "licenseType": "Subscription" },
+      { "id": "us-005", "softwareId": "soft-002", "softwareName": "Adobe Photoshop", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-003",
+    "name": "Michael Brown",
+    "email": "michael.brown@company.com",
+    "position": "DevOps Engineer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 4,
+    "devices": [
+      { "id": "ud-004", "deviceId": "dev-002", "deviceName": "MacBook Pro 14", "assignedAt": "2023-08-21" },
+      { "id": "ud-005", "deviceId": "dev-008", "deviceName": "Mac Mini", "assignedAt": "2024-04-02" }
+    ],
+    "softwares": [
+      { "id": "us-006", "softwareId": "soft-014", "softwareName": "Docker Desktop", "licenseType": "Subscription" },
+      { "id": "us-007", "softwareId": "soft-018", "softwareName": "GitHub Enterprise", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-004",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@company.com",
+    "position": "Project Manager",
+    "department": "Management",
+    "devicesCount": 1,
+    "licensesCount": 2,
+    "devices": [
+      { "id": "ud-006", "deviceId": "dev-004", "deviceName": "Lenovo ThinkPad X1", "assignedAt": "2024-02-11" }
+    ],
+    "softwares": [
+      { "id": "us-008", "softwareId": "soft-011", "softwareName": "Jira", "licenseType": "Subscription" },
+      { "id": "us-009", "softwareId": "soft-012", "softwareName": "Confluence", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-005",
+    "name": "David Wilson",
+    "email": "david.wilson@company.com",
+    "position": "QA Engineer",
+    "department": "QA",
+    "devicesCount": 1,
+    "licensesCount": 3,
+    "devices": [
+      { "id": "ud-007", "deviceId": "dev-003", "deviceName": "HP EliteBook 840", "assignedAt": "2022-11-06" }
+    ],
+    "softwares": [
+      { "id": "us-010", "softwareId": "soft-013", "softwareName": "Postman", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-006",
+    "name": "Olivia Martinez",
+    "email": "olivia.martinez@company.com",
+    "position": "Business Analyst",
+    "department": "Analytics",
+    "devicesCount": 1,
+    "licensesCount": 2,
+    "devices": [
+      { "id": "ud-008", "deviceId": "dev-011", "deviceName": "HP ProDesk 600", "assignedAt": "2023-05-06" }
+    ],
+    "softwares": [
+      { "id": "us-011", "softwareId": "soft-017", "softwareName": "Power BI", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-007",
+    "name": "James Anderson",
+    "email": "james.anderson@company.com",
+    "position": "Backend Developer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 4,
+    "devices": [
+      { "id": "ud-009", "deviceId": "dev-016", "deviceName": "Dell Precision 5560", "assignedAt": "2023-04-21" },
+      { "id": "ud-010", "deviceId": "dev-021", "deviceName": "Dell Inspiron 15", "assignedAt": "2022-08-09" }
+    ],
+    "softwares": [
+      { "id": "us-012", "softwareId": "soft-006", "softwareName": "Visual Studio", "licenseType": "Perpetual" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-008",
+    "name": "Sophia Thomas",
+    "email": "sophia.thomas@company.com",
+    "position": "Frontend Developer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 5,
+    "devices": [
+      { "id": "ud-011", "deviceId": "dev-007", "deviceName": "Surface Laptop 5", "assignedAt": "2024-01-16" },
+      { "id": "ud-012", "deviceId": "dev-013", "deviceName": "MacBook Air M2", "assignedAt": "2024-06-02" }
+    ],
+    "softwares": [
+      { "id": "us-013", "softwareId": "soft-007", "softwareName": "Figma", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-009",
+    "name": "Daniel Taylor",
+    "email": "daniel.taylor@company.com",
+    "position": "System Administrator",
+    "department": "IT",
+    "devicesCount": 3,
+    "licensesCount": 6,
+    "devices": [
+      { "id": "ud-013", "deviceId": "dev-020", "deviceName": "Acer Predator Orion", "assignedAt": "2023-01-02" },
+      { "id": "ud-014", "deviceId": "dev-018", "deviceName": "Mac Studio", "assignedAt": "2023-02-15" },
+      { "id": "ud-015", "deviceId": "dev-023", "deviceName": "Lenovo ThinkCentre", "assignedAt": "2023-06-07" }
+    ],
+    "softwares": [
+      { "id": "us-014", "softwareId": "soft-015", "softwareName": "Kaspersky Antivirus", "licenseType": "Annual" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-010",
+    "name": "Isabella Moore",
+    "email": "isabella.moore@company.com",
+    "position": "HR Manager",
+    "department": "HR",
+    "devicesCount": 1,
+    "licensesCount": 2,
+    "devices": [
+      { "id": "ud-016", "deviceId": "dev-014", "deviceName": "Lenovo IdeaPad 5", "assignedAt": "2022-12-13" }
+    ],
+    "softwares": [
+      { "id": "us-015", "softwareId": "soft-001", "softwareName": "Microsoft Office", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-011",
+    "name": "William Jackson",
+    "email": "william.jackson@company.com",
+    "position": "Security Engineer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 5,
+    "devices": [
+      { "id": "ud-017", "deviceId": "dev-019", "deviceName": "Asus ROG Zephyrus", "assignedAt": "2024-03-04" },
+      { "id": "ud-018", "deviceId": "dev-025", "deviceName": "HP ZBook Firefly", "assignedAt": "2024-07-08" }
+    ],
+    "softwares": [
+      { "id": "us-016", "softwareId": "soft-015", "softwareName": "Kaspersky Antivirus", "licenseType": "Annual" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-012",
+    "name": "Mia White",
+    "email": "mia.white@company.com",
+    "position": "Recruiter",
+    "department": "HR",
+    "devicesCount": 1,
+    "licensesCount": 1,
+    "devices": [
+      { "id": "ud-019", "deviceId": "dev-010", "deviceName": "Acer Aspire 5", "assignedAt": "2022-09-11" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-013",
+    "name": "Ethan Harris",
+    "email": "ethan.harris@company.com",
+    "position": "Data Scientist",
+    "department": "Analytics",
+    "devicesCount": 2,
+    "licensesCount": 4,
+    "devices": [
+      { "id": "ud-020", "deviceId": "dev-016", "deviceName": "Dell Precision 5560", "assignedAt": "2023-04-21" },
+      { "id": "ud-021", "deviceId": "dev-018", "deviceName": "Mac Studio", "assignedAt": "2023-02-15" }
+    ],
+    "softwares": [
+      { "id": "us-017", "softwareId": "soft-016", "softwareName": "Tableau", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-014",
+    "name": "Charlotte Martin",
+    "email": "charlotte.martin@company.com",
+    "position": "Marketing Manager",
+    "department": "Marketing",
+    "devicesCount": 1,
+    "licensesCount": 3,
+    "devices": [
+      { "id": "ud-022", "deviceId": "dev-005", "deviceName": "iMac 24", "assignedAt": "2023-03-13" }
+    ],
+    "softwares": [
+      { "id": "us-018", "softwareId": "soft-022", "softwareName": "Canva", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-015",
+    "name": "Benjamin Thompson",
+    "email": "benjamin.thompson@company.com",
+    "position": "Support Engineer",
+    "department": "Support",
+    "devicesCount": 2,
+    "licensesCount": 3,
+    "devices": [
+      { "id": "ud-023", "deviceId": "dev-021", "deviceName": "Dell Inspiron 15", "assignedAt": "2022-08-09" },
+      { "id": "ud-024", "deviceId": "dev-006", "deviceName": "Dell OptiPlex 7090", "assignedAt": "2022-06-02" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-016",
+    "name": "Amelia Garcia",
+    "email": "amelia.garcia@company.com",
+    "position": "Accountant",
+    "department": "Finance",
+    "devicesCount": 1,
+    "licensesCount": 2,
+    "devices": [
+      { "id": "ud-025", "deviceId": "dev-011", "deviceName": "HP ProDesk 600", "assignedAt": "2023-05-06" }
+    ],
+    "softwares": [
+      { "id": "us-019", "softwareId": "soft-001", "softwareName": "Microsoft Office", "licenseType": "Subscription" }
+    ],
+    "history": []
+  },
+
+  {
+    "id": "user-017",
+    "name": "Lucas Martinez",
+    "email": "lucas.martinez@company.com",
+    "position": "Mobile Developer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 4,
+    "devices": [
+      { "id": "ud-026", "deviceId": "dev-015", "deviceName": "Surface Pro 9", "assignedAt": "2023-11-02" },
+      { "id": "ud-027", "deviceId": "dev-013", "deviceName": "MacBook Air M2", "assignedAt": "2024-06-02" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-018",
+    "name": "Harper Robinson",
+    "email": "harper.robinson@company.com",
+    "position": "Content Manager",
+    "department": "Marketing",
+    "devicesCount": 1,
+    "licensesCount": 2,
+    "devices": [
+      { "id": "ud-028", "deviceId": "dev-024", "deviceName": "Surface Studio 2", "assignedAt": "2024-09-10" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-019",
+    "name": "Alexander Clark",
+    "email": "alexander.clark@company.com",
+    "position": "Cloud Engineer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 5,
+    "devices": [
+      { "id": "ud-029", "deviceId": "dev-002", "deviceName": "MacBook Pro 14", "assignedAt": "2023-08-21" },
+      { "id": "ud-030", "deviceId": "dev-008", "deviceName": "Mac Mini", "assignedAt": "2024-04-02" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-020",
+    "name": "Evelyn Rodriguez",
+    "email": "evelyn.rodriguez@company.com",
+    "position": "Sales Manager",
+    "department": "Sales",
+    "devicesCount": 1,
+    "licensesCount": 3,
+    "devices": [
+      { "id": "ud-031", "deviceId": "dev-017", "deviceName": "HP Pavilion 15", "assignedAt": "2022-10-11" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-021",
+    "name": "Henry Lewis",
+    "email": "henry.lewis@company.com",
+    "position": "Network Engineer",
+    "department": "IT",
+    "devicesCount": 3,
+    "licensesCount": 6,
+    "devices": [
+      { "id": "ud-032", "deviceId": "dev-020", "deviceName": "Acer Predator Orion", "assignedAt": "2023-01-02" },
+      { "id": "ud-033", "deviceId": "dev-023", "deviceName": "Lenovo ThinkCentre", "assignedAt": "2023-06-07" },
+      { "id": "ud-034", "deviceId": "dev-006", "deviceName": "Dell OptiPlex 7090", "assignedAt": "2022-06-02" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-022",
+    "name": "Abigail Lee",
+    "email": "abigail.lee@company.com",
+    "position": "UX Researcher",
+    "department": "Design",
+    "devicesCount": 1,
+    "licensesCount": 2,
+    "devices": [
+      { "id": "ud-035", "deviceId": "dev-005", "deviceName": "iMac 24", "assignedAt": "2023-03-13" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-023",
+    "name": "Sebastian Walker",
+    "email": "sebastian.walker@company.com",
+    "position": "Full Stack Developer",
+    "department": "IT",
+    "devicesCount": 2,
+    "licensesCount": 5,
+    "devices": [
+      { "id": "ud-036", "deviceId": "dev-001", "deviceName": "Dell XPS 13", "assignedAt": "2024-05-14" },
+      { "id": "ud-037", "deviceId": "dev-016", "deviceName": "Dell Precision 5560", "assignedAt": "2023-04-21" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-024",
+    "name": "Ella Hall",
+    "email": "ella.hall@company.com",
+    "position": "Office Manager",
+    "department": "Administration",
+    "devicesCount": 1,
+    "licensesCount": 1,
+    "devices": [
+      { "id": "ud-038", "deviceId": "dev-014", "deviceName": "Lenovo IdeaPad 5", "assignedAt": "2022-12-13" }
+    ],
+    "softwares": [],
+    "history": []
+  },
+
+  {
+    "id": "user-025",
+    "name": "Jack Allen",
+    "email": "jack.allen@company.com",
+    "position": "Intern",
+    "department": "IT",
+    "devicesCount": 1,
+    "licensesCount": 1,
+    "devices": [
+      { "id": "ud-039", "deviceId": "dev-010", "deviceName": "Acer Aspire 5", "assignedAt": "2022-09-11" }
+    ],
+    "softwares": [],
+    "history": []
+  }
+]
+

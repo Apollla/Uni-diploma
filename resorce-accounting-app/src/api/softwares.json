@@ -1,0 +1,377 @@
+[
+  {
+    "id": "soft-001",
+    "name": "Microsoft Office",
+    "version": "365",
+    "licenseType": "Subscription",
+    "totalLicenses": 100,
+    "price": 12000,
+    "purchaseDate": "2025-03-01",
+    "expirationDate": "2026-03-29",
+    "vendor": "Microsoft",
+    "notes": "Main office suite",
+    "users": [
+      { "id": "su-001", "userId": "user-001", "userName": "John Doe", "licenseKey": "OFFICE-AAA-111" }
+    ],
+    "devices": [
+      { "id": "sd-001", "deviceId": "dev-003", "deviceName": "HP EliteBook 840" }
+    ]
+  },
+  {
+    "id": "soft-002",
+    "name": "Adobe Photoshop",
+    "version": "2024",
+    "licenseType": "Subscription",
+    "totalLicenses": 50,
+    "price": 8000,
+    "purchaseDate": "2025-06-10",
+    "expirationDate": "2026-03-26",
+    "vendor": "Adobe",
+    "notes": "",
+    "users": [
+      { "id": "su-002", "userId": "user-002", "userName": "Jane Smith", "licenseKey": "PS-222-BBB" }
+    ],
+    "devices": []
+  },
+  {
+    "id": "soft-003",
+    "name": "Slack",
+    "version": "Enterprise",
+    "licenseType": "Subscription",
+    "totalLicenses": 200,
+    "price": 15000,
+    "purchaseDate": "2025-01-15",
+    "expirationDate": "2026-01-15",
+    "vendor": "Slack Technologies",
+    "notes": "Company communication tool",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-004",
+    "name": "Zoom",
+    "version": "5.17",
+    "licenseType": "Subscription",
+    "totalLicenses": 150,
+    "price": 10000,
+    "purchaseDate": "2025-02-01",
+    "expirationDate": "2026-02-01",
+    "vendor": "Zoom",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-005",
+    "name": "JetBrains IntelliJ IDEA",
+    "version": "2025.1",
+    "licenseType": "Annual",
+    "totalLicenses": 30,
+    "price": 6000,
+    "purchaseDate": "2025-04-20",
+    "expirationDate": "2026-04-20",
+    "vendor": "JetBrains",
+    "notes": "Java/Kotlin development",
+    "users": [
+      { "id": "su-003", "userId": "user-003", "userName": "Alex Dev", "licenseKey": "JB-333-CCC" }
+    ],
+    "devices": [
+      { "id": "sd-002", "deviceId": "dev-002", "deviceName": "MacBook Pro 14" }
+    ]
+  },
+  {
+    "id": "soft-006",
+    "name": "Visual Studio",
+    "version": "2022",
+    "licenseType": "Perpetual",
+    "totalLicenses": 40,
+    "price": 9000,
+    "purchaseDate": "2023-05-10",
+    "expirationDate": "2030-05-10",
+    "vendor": "Microsoft",
+    "notes": ".NET development",
+    "users": [],
+    "devices": [
+      { "id": "sd-003", "deviceId": "dev-001", "deviceName": "Dell XPS 13" }
+    ]
+  },
+  {
+    "id": "soft-007",
+    "name": "Figma",
+    "version": "Pro",
+    "licenseType": "Subscription",
+    "totalLicenses": 25,
+    "price": 5000,
+    "purchaseDate": "2025-07-01",
+    "expirationDate": "2026-07-01",
+    "vendor": "Figma",
+    "notes": "Design tool",
+    "users": [],
+    "devices": [
+      { "id": "sd-004", "deviceId": "dev-005", "deviceName": "iMac 24" }
+    ]
+  },
+  {
+    "id": "soft-008",
+    "name": "Notion",
+    "version": "Team",
+    "licenseType": "Subscription",
+    "totalLicenses": 60,
+    "price": 4000,
+    "purchaseDate": "2025-03-15",
+    "expirationDate": "2026-03-20",
+    "vendor": "Notion",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-009",
+    "name": "Google Workspace",
+    "version": "Business",
+    "licenseType": "Subscription",
+    "totalLicenses": 120,
+    "price": 14000,
+    "purchaseDate": "2025-01-01",
+    "expirationDate": "2026-01-01",
+    "vendor": "Google",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-010",
+    "name": "Dropbox",
+    "version": "Business",
+    "licenseType": "Subscription",
+    "totalLicenses": 80,
+    "price": 7000,
+    "purchaseDate": "2025-02-15",
+    "expirationDate": "2026-02-15",
+    "vendor": "Dropbox",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+
+  {
+    "id": "soft-011",
+    "name": "Jira",
+    "version": "Cloud",
+    "licenseType": "Subscription",
+    "totalLicenses": 90,
+    "price": 11000,
+    "purchaseDate": "2025-03-10",
+    "expirationDate": "2026-03-28",
+    "vendor": "Atlassian",
+    "notes": "Task tracking",
+    "users": [],
+    "devices": [
+      { "id": "sd-005", "deviceId": "dev-004", "deviceName": "Lenovo ThinkPad X1" }
+    ]
+  },
+  {
+    "id": "soft-012",
+    "name": "Confluence",
+    "version": "Cloud",
+    "licenseType": "Subscription",
+    "totalLicenses": 90,
+    "price": 9000,
+    "purchaseDate": "2025-03-12",
+    "expirationDate": "2026-03-22",
+    "vendor": "Atlassian",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-013",
+    "name": "Postman",
+    "version": "Pro",
+    "licenseType": "Subscription",
+    "totalLicenses": 35,
+    "price": 3000,
+    "purchaseDate": "2025-06-01",
+    "expirationDate": "2026-06-01",
+    "vendor": "Postman",
+    "notes": "API testing",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-014",
+    "name": "Docker Desktop",
+    "version": "4.0",
+    "licenseType": "Subscription",
+    "totalLicenses": 50,
+    "price": 4500,
+    "purchaseDate": "2025-05-01",
+    "expirationDate": "2026-05-01",
+    "vendor": "Docker",
+    "notes": "Containers",
+    "users": [],
+    "devices": [
+      { "id": "sd-006", "deviceId": "dev-001", "deviceName": "Dell XPS 13" }
+    ]
+  },
+  {
+    "id": "soft-015",
+    "name": "Kaspersky Antivirus",
+    "version": "2025",
+    "licenseType": "Annual",
+    "totalLicenses": 200,
+    "price": 6000,
+    "purchaseDate": "2025-09-01",
+    "expirationDate": "2026-09-01",
+    "vendor": "Kaspersky",
+    "notes": "Security",
+    "users": [],
+    "devices": [
+      { "id": "sd-007", "deviceId": "dev-003", "deviceName": "HP EliteBook 840" }
+    ]
+  },
+
+  {
+    "id": "soft-016",
+    "name": "Tableau",
+    "version": "2024",
+    "licenseType": "Subscription",
+    "totalLicenses": 20,
+    "price": 8000,
+    "purchaseDate": "2025-08-01",
+    "expirationDate": "2026-08-01",
+    "vendor": "Tableau",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-017",
+    "name": "Power BI",
+    "version": "Pro",
+    "licenseType": "Subscription",
+    "totalLicenses": 45,
+    "price": 7000,
+    "purchaseDate": "2025-07-15",
+    "expirationDate": "2026-07-15",
+    "vendor": "Microsoft",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-018",
+    "name": "GitHub Enterprise",
+    "version": "Cloud",
+    "licenseType": "Subscription",
+    "totalLicenses": 100,
+    "price": 15000,
+    "purchaseDate": "2025-04-01",
+    "expirationDate": "2026-04-01",
+    "vendor": "GitHub",
+    "notes": "",
+    "users": [],
+    "devices": [
+      { "id": "sd-008", "deviceId": "dev-002", "deviceName": "MacBook Pro 14" }
+    ]
+  },
+  {
+    "id": "soft-019",
+    "name": "Bitbucket",
+    "version": "Cloud",
+    "licenseType": "Subscription",
+    "totalLicenses": 60,
+    "price": 6000,
+    "purchaseDate": "2025-02-20",
+    "expirationDate": "2026-02-20",
+    "vendor": "Atlassian",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-020",
+    "name": "Trello",
+    "version": "Business",
+    "licenseType": "Subscription",
+    "totalLicenses": 70,
+    "price": 5000,
+    "purchaseDate": "2025-03-05",
+    "expirationDate": "2026-03-30",
+    "vendor": "Atlassian",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-021",
+    "name": "Miro",
+    "version": "Team",
+    "licenseType": "Subscription",
+    "totalLicenses": 41,
+    "price": 4000,
+    "purchaseDate": "2025-03-08",
+    "expirationDate": "2026-03-24",
+    "vendor": "Miro",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-022",
+    "name": "Canva",
+    "version": "Pro",
+    "licenseType": "Subscription",
+    "totalLicenses": 30,
+    "price": 3000,
+    "purchaseDate": "2025-05-10",
+    "expirationDate": "2026-05-10",
+    "vendor": "Canva",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-023",
+    "name": "Zoom Rooms",
+    "version": "2025",
+    "licenseType": "Subscription",
+    "totalLicenses": 10,
+    "price": 2000,
+    "purchaseDate": "2025-06-20",
+    "expirationDate": "2026-06-20",
+    "vendor": "Zoom",
+    "notes": "",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-024",
+    "name": "1Password",
+    "version": "Business",
+    "licenseType": "Subscription",
+    "totalLicenses": 80,
+    "price": 5000,
+    "purchaseDate": "2025-04-15",
+    "expirationDate": "2026-04-15",
+    "vendor": "1Password",
+    "notes": "Password manager",
+    "users": [],
+    "devices": []
+  },
+  {
+    "id": "soft-025",
+    "name": "LastPass",
+    "version": "Enterprise",
+    "licenseType": "Subscription",
+    "totalLicenses": 80,
+    "price": 5000,
+    "purchaseDate": "2025-02-01",
+    "expirationDate": "2026-02-01",
+    "vendor": "LastPass",
+    "notes": "",
+    "users": [],
+    "devices": []
+  }
+]
+
