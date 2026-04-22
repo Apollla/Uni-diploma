@@ -1,12 +1,11 @@
 import { HeaderController } from "../components/common/header/HeaderController"
-import { HardwarePage } from "../components/pages/hardware/HardwarePage"
 
-export const Hardware = () => {
+export const Analytics = () => {
 
   return (
     <div>
     <HeaderController />
-    <HardwarePage />
+    
     </div>
         )
       }

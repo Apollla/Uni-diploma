@@ -1,12 +1,12 @@
 import { HeaderController } from "../components/common/header/HeaderController"
-import { HardwarePage } from "../components/pages/hardware/HardwarePage"
+import { SoftwarePage } from "../components/pages/software/SoftwarePage"
 
-export const Hardware = () => {
+export const Software = () => {
 
   return (
     <div>
     <HeaderController />
-    <HardwarePage />
+    <SoftwarePage />
     </div>
         )
       }

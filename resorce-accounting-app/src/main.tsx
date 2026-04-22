@@ -3,6 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { BrowserRouter, Route, Routes, Router } from "react-router-dom";
 import { Home } from './pages/Home';
+import { Hardware } from './pages/Hardware';
+import { Software } from './pages/Software';
+import { User } from './pages/User';
+import { Analytics } from './pages/Analytics';
+
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,6 +17,27 @@ createRoot(document.getElementById('root')!).render(
           path="/"
           element={<Home />}
         />
+
+<Route
+          path="/hardware"
+          element={<Hardware />}
+        />
+
+<Route
+          path="/software"
+          element={<Software />}
+        />
+
+<Route
+          path="/users"
+          element={<User /> }
+        />
+
+<Route
+          path="/analytics"
+          element={<Analytics /> }
+        />
+
       </Routes>
     </BrowserRouter>
   </StrictMode>
