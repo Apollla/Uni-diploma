@@ -14,7 +14,7 @@ export const HeaderView = ({ isOpenMenu, onToggleMenu }: Props) => {
         <div className="text-xl font-semibold">MyApp</div>
 
         <nav className="hidden md:flex items-center gap-6">
-          <Link to="/" className="hover:text-blue-500">Home</Link>
+          <Link to="/home" className="hover:text-blue-500">Home</Link>
           <Link to="/hardware" className="hover:text-blue-500">Hardware</Link>
           <Link to="/software" className="hover:text-blue-500">Software</Link>
           <Link to="/users" className="hover:text-blue-500">Users</Link>
@@ -43,7 +43,7 @@ export const HeaderView = ({ isOpenMenu, onToggleMenu }: Props) => {
             </button>
 
             <nav className="flex flex-col gap-4 text-lg">
-              <Link to="/" onClick={onToggleMenu}>Home</Link>
+              <Link to="/home" onClick={onToggleMenu}>Home</Link>
               <Link to="/hardware" onClick={onToggleMenu}>Hardware</Link>
               <Link to="/software" onClick={onToggleMenu}>Software</Link>
               <Link to="/users" onClick={onToggleMenu}>Users</Link>

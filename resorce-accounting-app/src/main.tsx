@@ -7,14 +7,26 @@ import { Hardware } from './pages/Hardware';
 import { Software } from './pages/Software';
 import { User } from './pages/User';
 import { Analytics } from './pages/Analytics';
+import { SignUp } from './pages/SignUp';
+import { SignInPage } from './components/pages/signin/SignInPage';
 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route
+      <Route
           path="/"
+          element={<SignUp /> }
+        />
+
+<Route
+          path="/signin"
+          element={<SignInPage />}
+        />
+
+        <Route
+          path="/home"
           element={<Home />}
         />
 
@@ -39,6 +51,7 @@ createRoot(document.getElementById('root')!).render(
         />
 
       </Routes>
+      
     </BrowserRouter>
   </StrictMode>
 );
